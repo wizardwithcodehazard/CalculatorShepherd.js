@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator with Shepherd.js</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shepherd.js/8.1.0/css/shepherd.css" integrity="sha512-G1qL8p77uHV/BY2GZ3B9NwF3TP8zff1HvjdmFuvpTWFrDnyMwoKy38cVItcyUSQQMyPCSCt1Ng4TkhSzA3k+TA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+    <nav> 
+        <a href="index1.html" class="nav-link">Home</a> 
+        <a href="quadratic.html" class="nav-link">Quadratic</a> 
+        <a href="https://linktr.ee/sahilrane?utm_source=linktree_profile_share&ltsid=e711934a-48d1-4e16-a8a3-a3d3e0a24e38" class="nav-link">Connect</a> 
+    </nav>
+</header>
+    <div class="calculator" id="calculator">
+        <input type="text" class="display" id="display" readonly>
+        <div class="buttons" id="buttons">
+            <button class="btn" data-value="C">C</button>
+            <button class="btn" data-value="←">DEL</button>
+            <button class="btn" data-value="%">%</button>
+            <button class="btn operator" data-value="/">/</button>
+
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn operator" data-value="*">*</button>
+
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn operator" data-value="-">-</button>
+
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn operator" data-value="+">+</button>
+
+            <button class="btn" data-value="0">0</button>
+            <button class="btn" data-value=".">.</button>
+            <button class="btn" data-value="=">=</button>
+            <button class="btn" data-value="√">√</button>
+        </div>
+    </div>
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shepherd.js/8.1.0/js/shepherd.js" integrity="sha512-rHq/EmxMBfFKh9w5ltC6Mk9Ap8LO3Jw4rxBLyLQ6+gGVURgB0wbYr2EsLTXsdB3j6nHvnOlAqVZXbmV4pOMdHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
